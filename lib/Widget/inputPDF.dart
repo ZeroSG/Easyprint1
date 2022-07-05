@@ -236,12 +236,7 @@ class _newDocumentPDFState extends State<newDocumentPDF> {
                                             namefile =
                                                 "$documentPath/PDF/Label_${now.day}-${now.month}-${now.year}_$size.pdf";
                                             pdf = null;
-                                            // Navigator.push(
-                                            //     context,
-                                            //     MaterialPageRoute(
-                                            //         builder: (context) => PDFD(
-                                            //               path: namefile,
-                                            //             )));
+                                        Navigator.pushNamed(context, '/index');
                                           },
                                           color: Colors.blue,
                                           child: Text(
@@ -262,12 +257,7 @@ class _newDocumentPDFState extends State<newDocumentPDF> {
                   namefile =
                       "$documentPath/PDF/Label_${now.day}-${now.month}-${now.year}_$size.pdf";
                   pdf = null;
-                  // Navigator.push(
-                  //     context,
-                  //     MaterialPageRoute(
-                  //         builder: (context) => PDFD(
-                  //               path: namefile,
-                  //             )));
+                  Navigator.pushNamed(context, '/index');
                 }
               } else {
                 setState(() {
@@ -317,12 +307,7 @@ class _newDocumentPDFState extends State<newDocumentPDF> {
                                             namefile =
                                                 "$documentPath/PDF/Label_${now.day}-${now.month}-${now.year}_$size.pdf";
                                             pdf = null;
-                                            // Navigator.push(
-                                            //     context,
-                                            //     MaterialPageRoute(
-                                            //         builder: (context) => PDFD(
-                                            //               path: namefile,
-                                            //             )));
+                                           Navigator.pushNamed(context, '/index');
                                           },
                                           color: Colors.blue,
                                           child: Text(
@@ -343,12 +328,7 @@ class _newDocumentPDFState extends State<newDocumentPDF> {
                   namefile =
                       "$documentPath/PDF/Label_${now.day}-${now.month}-${now.year}_$size.pdf";
                   pdf = null;
-                  // Navigator.push(
-                  //     context,
-                  //     MaterialPageRoute(
-                  //         builder: (context) => PDFD(
-                  //               path: namefile,
-                  //             )));
+                 Navigator.pushNamed(context, '/index');
                 }
               }
             
