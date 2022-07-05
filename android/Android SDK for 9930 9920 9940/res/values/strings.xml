@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">PosConSendTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="port">
+        <item>NET</item>
+        <item>BLE</item>
+        <item>USB</item>
+    </string-array>
+    <string name="connect">Connect</string>
+    <string name="discon">DisConnect</string>
+    <string name="hint">Please input IP</string>
+    <string name="contextandcode">print context,line,BarCodeAndQRcode</string>
+    <string name="read">Read Buffer</string>
+    <string name="image">Print Image</string>
+    <string name="image1">Print Raste Image</string>
+    <string name="text">Print text</string>
+    <string name="barcode">Print barCode</string>
+    <string name="bleselect">Please select BLE dev</string>
+    <string name="usbselect">Please select USB dev</string>
+    <string name="toast_discon_success">Disconnect success</string>
+    <string name="toast_discon_faile">Disconnect success</string>
+    <string name="toast_present_con">there is no connection</string>
+    <string name="send_success">Send Success</string>
+    <string name="send_failed">Send Failed</string>
+    <string name="not_con_printer">there is no connection</string>
+    <string name="usb_pre_con">present connected Usb dev:</string>
+    <string name="con_success">Connect success</string>
+    <string name="con_failed">Connect failed</string>
+    <string name="con_has_discon">connection has disconnected</string>
+    <string name="sb">Select</string>
+    <string name="start_pos_activity">Start PosPrint</string>
+    <string name="qrcode">Print QRcode</string>
+    <string name="excel">Read Excel Buffer</string>
+    <string name="pdf">Read pdf Buffer</string>
+    <string name="check">Check Paper</string>
+    <string name="read_model">read model(bluebooth)</string>
+    <string name="search_printer">Search Printer</string>
+</resources>
